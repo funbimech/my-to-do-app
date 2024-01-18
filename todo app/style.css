@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  background: linear-gradient(135deg,hwb(220 8% 53%),#4e085f);
+  height:650;
+  padding: 10px;
+}
+.host {
+   display: flex;
+width: 100%;
+height: 460px;
+justify-content: center;
+align-items: center;
+
+}
+.lcontainer {
+  display: flex;
+  margin-bottom: 135px;
+  width: 100%;
+  height: 180px;
+  text-transform: uppercase;
+
+}
+ul li {
+  font-size: 17px;
+  padding: 12px;
+  
+}
+.patch {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  width: 440px;
+  height: 280px;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+}
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.dad {
+  display: flex;
+  border-radius: 40px;
+  border: 5px solid #ff5945;
+  width: 90%;
+  height: 30px;
+  margin-left: 35px;
+}
+.mom {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+  margin-bottom: 9px;
+  
+}
+button {
+  border: none;
+  outline: none;
+  background: #ff5945;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.bro {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 650px) {
+  .container {
+    display: flex;
+    background: linear-gradient(135deg,hwb(220 8% 53%),#4e085f);
+    height:650px;
+    padding: 10px;
+  }
+  
+}
+@media (max-width: 450) {
+  .patch {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 440px;
+    height: 280px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+  }
+}
+
